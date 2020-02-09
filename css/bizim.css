@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+background: rgb(216,222,230);
+background: radial-gradient(circle, rgba(216,222,230,1) 0%, rgba(197,204,213,1) 100%);
+height:100%;
+width:100%;
+
+}
+
+.anaiskelet {
+background-color:#F5F5F5;
+border:#939090 solid 1px;
+border-radius: 3px;
+margin-top: 10px;
+min-height:500px; 
+overflow: hidden;
+
+
+
+}
+.isimler {
+border-right:#939090 solid 1px;
+height:460px; 
+
+
+}
+.yazilar {
+overflow-y: scroll; height:350px; width: auto;
+}
+.isimmenusu {
+height:410px;
+border-bottom:#939090 solid 1px;
+}
+
+.icon {
+  font-size: 30px;
+  margin: 5px;
+}
+#log {
+margin-top:20%; 
+min-height:250px;
+background: rgb(69,167,144);
+background: linear-gradient(90deg, rgba(69,167,144,1) 0%, rgba(62,181,117,1) 100%);
+border-radius:10px;
+border:1px solid #539485;
+}
+.bas {
+border-bottom:1px solid #2a5e52;
+margin: 10px;
+padding: 10px;
+color: #1c5838;
+}
+
+.user_row{
+  border-bottom: 1px solid #2a5e52;
+  display: flex;
+  padding: 10px;;
+}
+
+.user_row:nth-child(1){
+  padding-left: 40px;
+}
+.user_row:nth-child(2){
+  padding-left: 40px;
+}
+
+.settingsschema{
+  background-color:#F5F5F5;
+  border:#939090 solid 1px;
+  border-radius: 3px;
+  margin-top: 10px;
+}
+
+
+
